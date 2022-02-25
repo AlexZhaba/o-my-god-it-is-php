@@ -16,7 +16,7 @@
     <?php
       $labs = array(
         array(
-          "github_link" => "https://github.com/AlexZhaba",
+          "github_link" => "https://github.com/AlexZhaba/o-my-god-it-is-php/blob/master/index.php",
           "host_link" => "http://phplabs.std-1734.ist.mospolytech.ru/index.php",
         ),
       );
