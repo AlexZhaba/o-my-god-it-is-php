@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <?php include("template/head.php") ?>
   <link rel="stylesheet" href="./index.css">
-  <title>Жаворонков Александр Арсеньевич, группа 211-321, PHP</title>
 </head>
 <body>
   <div id="wrapper">
-    <header class="container index-header">
-      <span>Лабораторные работы по предмету <b>"Основы серверной веб-разработки"</b></span>
-    </header>
+    <?php $header_text='Лабораторные работы по предмету <b>"Основы серверной веб-разработки"' ?>
+    <?php include("template/header.php") ?>
     <main class="index-main">
     <?php
       $labs = array(
@@ -36,9 +32,7 @@
       }
     ?>
     </main>
-    <footer class="container index-footer">
-      <span>Жаворонков Александр Арсеньевич, группа 211-321</span>
-    </footer>
+    <?php include("template/footer.php") ?>
   </div>
 </body>
 </html>
