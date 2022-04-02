@@ -1,0 +1,51 @@
+@use "sass:color";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.calculator {
+  background: grey;
+  width: 400px;
+  padding: 20px;
+  transform: translateY(-80px);
+  z-index: 10;
+  &__screen {
+    // margin: 20px;
+    flex: 1;
+    font-size: 30px;
+    padding: 10px;
+    background: lightgrey;
+    overflow: scroll;
+    min-height: 64px;
+    letter-spacing: 5px;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  &__button {
+    background: lightgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+
+    &:active {
+      background: color.change(lightgray, $lightness: 60%);
+    }
+  }
+
+  &__submit {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: red;
+  }
+}
