@@ -18,7 +18,15 @@
         array(
           "github_link" => "https://github.com/AlexZhaba/o-my-god-it-is-php/tree/master/lab2",
           "host_link" => "http://phplabs.std-1734.ist.mospolytech.ru/lab2/index.php",
-        )
+        ),
+        array(
+          "github_link" => "https://github.com/AlexZhaba/o-my-god-it-is-php/tree/master/lab3",
+          "host_link" => "http://phplabs.std-1734.ist.mospolytech.ru/lab3/index.php",
+        ),
+        array(
+          "github_link" => "https://github.com/AlexZhaba/o-my-god-it-is-php/tree/master/lab4",
+          "host_link" => "http://phplabs.std-1734.ist.mospolytech.ru/lab4/index.php",
+        ),
       );
 
       for ($i = 0; $i < count($labs); ++$i) {

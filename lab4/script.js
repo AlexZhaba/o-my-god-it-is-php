@@ -28,7 +28,6 @@ buttons.forEach(button => {
           const body = await response.json();
           screen.innerHTML = body.answer;
         }
-        // console.log(response.);
         break;
       }
       default: {
